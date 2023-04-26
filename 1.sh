@@ -1,3 +1,3 @@
 #!/bin/bash
 
-which npm
+cat /node18/bin/npm
