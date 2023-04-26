@@ -1,11 +1,17 @@
 #!/bin/bash
 
-echo "ls -la /vercel/path0/node_modules/next/dist/compiled/web-vitals"
+echo "cat /vercel/path0/node_modules/next/dist/compiled/web-vitals/web-vitals.js"
 
-ls -la /vercel/path0/node_modules/next/dist/compiled/web-vitals
+cat /vercel/path0/node_modules/next/dist/compiled/web-vitals/web-vitals.js
 
-echo "cat /vercel/path0/node_modules/next/dist/pages/_app"
+echo "cat /vercel/path0/node_modules/next/dist/compiled/web-vitals/package.json"
 
-cat /vercel/path0/node_modules/next/dist/pages/_app
+cat /vercel/path0/node_modules/next/dist/compiled/web-vitals/package.json
 
-echo "ls -la /vercel/path0/node_modules/next/dist/pages/_app"
+echo "cat /vercel/path0/node_modules/next/dist/client/router"
+
+cat /vercel/path0/node_modules/next/dist/client/router
+
+echo "ls -la /vercel/path0/node_modules/next/dist/client/router"
+
+ls -la /vercel/path0/node_modules/next/dist/client/router
