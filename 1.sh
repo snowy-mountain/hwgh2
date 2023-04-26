@@ -1,3 +1,3 @@
 #!/bin/bash
 
-cat /node18/lib/cli.js
+ls -la ../lib/cli.js
