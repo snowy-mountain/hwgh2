@@ -1,9 +1,13 @@
 #!/bin/bash
 
-echo "/usr/local/lib/"
+echo "/vercel/path0/"
 
-ls -la /usr/local/lib/
+ls -la /vercel/path0/
 
-echo "/usr/local/lib/node_modules/npm/bin/"
+echo "/vercel/path0/node_modules/next"
 
-ls -la /usr/local/lib/node_modules/npm/bin/
+ls -la /vercel/path0/node_modules/next
+
+echo "/vercel/path0/node_modules/@next"
+
+ls -la /vercel/path0/node_modules/@next
