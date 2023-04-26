@@ -1,3 +1,31 @@
 #!/bin/bash
 
-cd / && tree
+tree usr/bin
+tree boot
+tree dev
+tree etc
+tree gitlfs
+tree home
+tree usr/lib
+tree usr/lib64
+tree local
+tree media
+tree mnt
+tree node12
+tree node14
+tree node16
+tree node18
+tree opt
+tree pnpm7
+tree proc
+tree python39
+tree root
+tree ruby27
+tree run
+tree usr/sbin
+tree srv
+tree sys
+tree tmp
+tree usr
+tree var
+tree vercel
